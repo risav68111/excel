@@ -1,0 +1,16 @@
+            String[] targetNames = new String[] { "Nalla G Palaniswami", "Nalla Gounder Palaniswami",
+            "Nalla Palaniswami", "NallaG Palaniswami", "Nalla G Palaniswamy", "Nalla Gounder Palaniswamy",
+            "Nalla Palaniswamy", "Nalla G Palanisamy", "Arun N Palaniswami",
+            "Arun Palaniswami", "Arun Palaniswamy", "Arun Nalla Gounder", "Nallagounder Palaniswami Arun",
+            "Palanisami Thavamanidevi", "Dhavamani Palaniswamy", "Thavamani D Palaniswami",
+            "Thavamani Palanisamy", "Thavamani Palaniswamy",
+            "Kovai", "KMCH", "K.M.C.H" };
+
+
+            for(String target : targetNames) {
+            targetName = target;
+            futures.add(executorService.submit(new ECourtHCI(caseId, service,
+            targetName, search_date, searchedBy, requestId, serviceId, fromYear, toYear,
+            "Madras High Court", List.of("Principal Bench of Madras High Court"))));
+            }
+
