@@ -30,3 +30,13 @@
                 "Mumbai (Suburban)");
 
 
+ // for (String target : targetNames) {
+            //     targetName = target;
+            //     for (String cc : districts) {
+            //         district = cc;
+            //         futures.add(executorService.submit(new DistrictECourt(caseId, service,
+            //                 targetName, search_date, searchedBy, requestId, serviceId, fromYear, toYear,
+            //                 state, district, courtComplex)));
+            //     }
+            // }
+
