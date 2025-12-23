@@ -14,3 +14,19 @@
             "Madras High Court", List.of("Principal Bench of Madras High Court"))));
             }
 
+
+                        String[] targetNames = new String[] {"Neha Rajen Gada", "Smita Affinwala", "Smita Cawas Affinwala" };
+            // String[] targetNames = new String[] { "jatin", "sushant", "rishav" };
+
+            List<String> districts = List.of(
+                "Maharashtra Family Courts", 
+                "Maharashtra Industrial and Lab",
+                "Maharashtra School Tribunals", 
+                "Mah State Cooperative Appellat", 
+                "Mumbai City Civil Court",
+                "Mumbai CMM Courts", 
+                "Mumbai Motor Accident Claims T", 
+                "Mumbai Small Causes Court",
+                "Mumbai (Suburban)");
+
+
